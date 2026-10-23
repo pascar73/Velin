@@ -1,15 +1,33 @@
-# VELIN — project description
+# VELIN
 
-## GitHub repository description
+![VELIN logo](assets/velin-logo.png)
 
-Agent-native computing for work and everyday life: an Ubuntu golden image with Pi and DSH, plus the architecture for VELIN server, desktop, and mobile experiences.
+**Agent-native computing for work and everyday life.**
 
-## Short introduction
+VELIN is a proposed agent-first environment for work and private life, built around an Ubuntu base, an agent fabric, and generated artefacts.
 
-VELIN is an agent-native computing project built around a simple workflow: describe the outcome, approve the actions, and review the finished work. Its current foundation is an installable Ubuntu golden image with Pi and the DeepSeek Harness. Its planned evolution brings together server, office desktop, consumer desktop, and Android companion experiences around controlled agent execution and well-designed artefacts.
+## Status
 
-## Extended description
+The latest golden image is the September 2026 Ubuntu 24.04.5 build with Pi and the DeepSeek Harness. The ISO is stored separately in the Obsidian vault. This repository contains its documentation and recorded checksums, alongside the October VELIN architecture, product plans, and preliminary IT templates. The planned four-product family is not implemented by the current image.
 
-VELIN explores how a computer can be organised around work that needs doing. Agents use tools to create documents, models, registers, and other outputs, while people retain control over consequential actions and review the results. The product direction combines a minimal Ubuntu base, consistent templates, local inference options, and a proposed fabric connecting enrolled devices.
+Read the [project brief](PROJECT_BRIEF.md) and [project description](DESCRIPTION.md) for the scope, current state, and next milestones.
 
-The latest available build is the September 2026 Ubuntu 24.04.5 golden image with Pi and DSH. The broader product family and October architecture are roadmap material. This repository preserves that distinction so users can understand what they can install today and what remains to be built.
+## Product family
+
+- VELIN server
+- VELIN office desktop
+- VELIN consumer desktop
+- VELIN mobile companion
+
+## Documents
+
+- [Golden image documentation](docs/golden-image/README.md)
+
+- [Architecture](ARCHITECTURE.md)
+- [Identity](IDENTITY.md)
+- [Packages](PACKAGES.md)
+- [Templates](TEMPLATES.md)
+- [Wrap-up](WRAPUP.md)
+- [IT onboarding](it/README.md)
+
+The internal `ael-*` names are retained from the source documents. IT scripts and configuration files are preliminary templates and require review before use.
