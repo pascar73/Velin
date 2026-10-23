@@ -1,0 +1,16 @@
+#cloud-config
+# Seeded by tenant IT after entra-teams-prep.ps1. No secrets.
+# Drop as user-data / NoCloud / AEL first-run import.
+
+runcmd: []
+
+write_files:
+  - path: /etc/ael/seed.env
+    permissions: "0600"
+    owner: root:root
+    content: |
+      AEL_ENTRA_TENANT="REPLACE_TENANT_ID"
+      AEL_ENTRA_APP="REPLACE_AEL_APP_ID"
+      AEL_TEAMS_TEAM="REPLACE_TEAM_ID"
+      AEL_TEAMS_CHANNEL="REPLACE_CHANNEL_ID"
+      # empty channel => Teams gateway stays off
