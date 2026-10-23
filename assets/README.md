@@ -1,0 +1,7 @@
+# VELIN logo
+
+`velin-logo.png` is the generated raster logo, created with the built-in image generation tool. It follows the project's existing character and palette direction in `IDENTITY.md`. Navy lettering is intended for light backgrounds.
+
+## Generation prompt
+
+Create one polished VELIN product logo lockup, wide landscape 3:2 canvas with generous transparent padding. At left a perfect circular badge on warm paper #F1E7D9: an adult Mediterranean woman around 30, composed intelligent expression, slight professional smile, warm olive skin, dark brown hair in a neat low bun, strong dark brows, navy #17253F tailored jacket, cream high-neck knit, tiny orange #D9743B folded-vellum lapel pin. Head and shoulders large within circle. Beside her shoulder inside badge a simple folded vellum page in two geometric shapes. Premium editorial illustration, crisp elegant ink contours, reduced flat colors, exceptionally simple masses readable at icon sizes; no photorealism or 3D. At right exact uppercase text 'VELIN', beautifully spaced substantial sophisticated navy lettering, highly legible, no other text. Balanced refined brand identity for agent-native computing and beautifully made documents; calm authority for professional and household use. Only navy, warm paper, ink brown #33291F, warm skin flats, tiny orange accent. Transparent background outside circular badge and lettering. No mockup, shadows, gradients, watermarks, neon, robots, circuit patterns, childlike features, pin-up styling, decorative flourishes.
